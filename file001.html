@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Tabuada</title>
+        <style>
+            #tabuada {
+                text-align: center;
+                margin-top: 30vh;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+            <div id="tabuada">
+        <script>
+            
+            var name = prompt('Qual é seu nome: ', 'Digite aqui')
+            var num = prompt('Digite um número: ', 'Para fazer uma tabuada')
+            document.write(`Tabuada do ${num} do ${name}<br><br>`)
+            for(kc=0;kc<=10;kc++) {
+                res = kc * num
+                document.write(num + ' x ' + kc + ' = ' + res + '<br>')
+            }
+            
+        </script>
+        </div>    
+    </body>
+</html>
